@@ -1,2 +1,7 @@
 # 35 output: 1.0, 2.4,7.2,5.3
-# 37
+# 37 if not((Value1 < Value2) || odd(Number))
+             statement 1
+      else       
+             statement 2
+      end if
+# 38      
