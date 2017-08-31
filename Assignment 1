@@ -4,4 +4,27 @@
       else       
              statement 2
       end if
-# 38      
+# 38 Ya but like this looks nicer 
+     if not((A & B) & C)
+             statement 1
+      else        
+             statement 2
+       end if
+# 61 Percival is a truth teller becuase the truth tellers can only tell truth. If Percial was the liar they would be telling the truth
+then not making them the liar . Llewellynn is the liar becuase Percial claimed they were and if he isnt that means that Percival would be
+be the liar but then he would be telling the truth.
+# 62 This is an implication. Merlin is A and Meredith is B. So A->B. So if A B  A->B
+                                                                           T T   T
+                                                                           T F   F
+                                                                           F T   T
+                                                                           F F   T    
+It matters more what Meredith is becuase even if Merlin is a liar but Meredith ia a truthteller then she wouldnt be a liar.                                                                           
+# 63 A is Rothwold and Grymlin is B: A or B
+                                     A B  A or B 
+                                     T T     T   
+                                     T F     T
+                                     F T     T
+                                     F F     F
+Rothwold is the truthteller becuase if he is right then he is not a liar and if is he the liar then and is wrong it makes him a truth 
+teller.                                     
+# 64 If Gwendolin is telling the truth then Gwendolin is not a liar but if he is then Nerrilian is also a liar                                      
