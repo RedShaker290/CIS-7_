@@ -5,5 +5,5 @@
    
 2. (P->R) ^ (Q->R) <=> (P V Q)->R
    (P'V R) ^ (Q'V R) <=> (P V Q)' V R
-                          P'^ Q' V R
-                          
+   (P'^ Q'^ R) V (R ^ Q' ^ R) <=> P'^ Q' V R
+   (P'^ Q'^ R) V (Q'^ R) 
