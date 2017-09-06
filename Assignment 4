@@ -1,1 +1,9 @@
-
+1. P->Q <=> Q'->P' 
+   P'VQ <=> (Q')'VP' IMP x 2
+   P'V Q <=> Q V P'  MAGIC
+   P'V Q <=> P'V Q   COM
+   
+2. (P->R) ^ (Q->R) <=> (P V Q)->R
+   (P'V R) ^ (Q'V R) <=> (P V Q)' V R
+                          P'^ Q' V R
+                          
