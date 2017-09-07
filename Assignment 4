@@ -7,5 +7,4 @@
    (P'V R) ^ (Q'V R) <=> (P V Q)' V R
    (P'^ Q'^ R) V (R ^ Q' ^ R) <=> P'^ Q' V R
    (P'^ Q'^ R) V (Q'^ R) <=> P' ^ Q' V R Thats as far as i could get :'(
-  Lab Questions  
   
