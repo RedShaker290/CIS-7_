@@ -3,8 +3,18 @@
    P'V Q <=> Q V P'  MAGIC
    P'V Q <=> P'V Q   COM
    
-2. (P->R) ^ (Q->R) <=> (P V Q)->R
-   (P'V R) ^ (Q'V R) <=> (P V Q)' V R
-   (P'^ Q'^ R) V (R ^ Q' ^ R) <=> P'^ Q' V R
+2. (P->R) ^ (Q->R) <=> (P V Q)->R             
+   (P'V R) ^ (Q'V R) <=> (P V Q)' V R          IMPx3
+   (P'^ Q'^ R) V (R ^ Q' ^ R) <=> P'^ Q' V R   Dis and DeMorg
    (P'^ Q'^ R) V (Q'^ R) <=> P' ^ Q' V R Thats as far as i could get :'(
-  
+Lab examples
+1. (P' V R) ^ (R' V P) <=> P<->R Givien 
+   (P->R) ^ (R->P) <=> P<->R Impx2
+             P<->R <=> P<->R Equ
+
+2. (P->R) ^ (P'->R) <=> (P'V R)->R             
+   (P'V R) ^ ((P')'V R) <=> (P' V R)' V R          IMPx3
+   (P'^ P ^ R) V (R ^ P ^ R) <=> (P')'^ R' V R   Dis and DeMorg and Magic 
+   F V (P ^ R) <=> P ^ R' V R                Domination and Magic 
+        (P^R) <=> P^R                     identity 
+            
