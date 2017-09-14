@@ -1,0 +1,5 @@
+﻿  Source.cpp
+c:\users\julian\cis-7_\assignment 6\assignment 5\source.cpp(16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\julian\cis-7_\assignment 6\assignment 5\source.cpp(42): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  Assignment 5.vcxproj -> C:\Users\Julian\CIS-7_\Assignment 6\Debug\Assignment 5.exe
+  Assignment 5.vcxproj -> C:\Users\Julian\CIS-7_\Assignment 6\Debug\Assignment 5.pdb (Partial PDB)
