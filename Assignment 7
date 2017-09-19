@@ -11,3 +11,8 @@
    2(n+m+2)=2z
    2p=2z
    true odd + odd = even 
+3. x = 2n
+   y = (2m)^2
+   2n+(2m)^2=2z
+   2(n+m^2)=2z
+   2x=2z true
