@@ -16,4 +16,8 @@
   3m = 3(k^3 + 3k^2 + 5k + 3)/y
   3m = 3y
   
-3.   
+3. 8m + 1 = 9^n
+   8m + 1 = 9^n * 9
+   8m + 1 = 9(8m + 1) 
+   8m + 1 = 72m + 9
+   they are both going to be + ints 
