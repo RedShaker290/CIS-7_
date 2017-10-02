@@ -1,0 +1,8 @@
+﻿  Source.cpp
+c:\users\julian\desktop\assignment 11\assignment 8\source.cpp(16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\julian\desktop\assignment 11\assignment 8\source.cpp(18): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\julian\desktop\assignment 11\assignment 8\source.cpp(21): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\julian\desktop\assignment 11\assignment 8\source.cpp(23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\julian\desktop\assignment 11\assignment 8\source.cpp(46): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  assignment 8.vcxproj -> C:\Users\Julian\Desktop\assignment 11\Debug\assignment 8.exe
+  assignment 8.vcxproj -> C:\Users\Julian\Desktop\assignment 11\Debug\assignment 8.pdb (Partial PDB)
