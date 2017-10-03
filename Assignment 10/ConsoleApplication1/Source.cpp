@@ -3,11 +3,12 @@ using namespace std;
 
 double isPrime(double num, char loop);
 double isValid(double num, char loop);
-double bruteForce(double num, char loop);
+void bruteForce(double num, char loop);
+int prime2(double num, int key);
 
 int main()
 {
-	double num = 0;
+	double num, num1 = 0;
 	char loop = 'Y';
 	int key = 0;
 
@@ -18,8 +19,10 @@ int main()
 	cin >> num;
 
 	num = isValid(num, loop);
+	num1 = num;
 	bruteForce(num, loop);
 	
+	cout << num1 << endl;
 	return 0;
 }
 double isValid(double num, char loop)
@@ -39,15 +42,8 @@ double isPrime(double num, char loop)
 	while (loop == 'Y')
 	{
 		int key = 0;
+		key = prime2(num,key);
 		
-		for (int i = 2; i <= num / 2; ++i)
-		{
-			if ((int)num % i == 0)
-			{
-				key = 1;
-				break;
-			}
-		}
 		if (key == 0)
 		{
 			cout << num << " is prime number pick a composite number" << endl;
@@ -61,46 +57,55 @@ double isPrime(double num, char loop)
 	}
 		return num;
 }
-double bruteForce(double num, char loop)
+void bruteForce(double num, char loop)
 {
-	int num1 = num;
+	double limit = num;
+	int i = 2;
 
-	while (loop == 'Y')
+	while ( i < limit)
 	{
-		if (num / 2 == (int)num / 2)
+		int key = 0;
+		int j = i;
+		key = prime2( j, key);             // checks if i is prime 
+
+		if (key == 0)
 		{
-			num = num / 2;
-			cout << " 2 " << endl;
+			if (num / i == (int)num / i)
+			{
+				num = num / i;
+				cout << " " << i << " * ";
+
+				 key = prime2(num, key);
+				 if (key == 0)
+					 break;
+			}
+			else
+				i++;
 		}
-		else if (num / 3 == (int)num / 3)
-		{
-			num = num / 3;
-			cout << " 3 " << endl;
-		}
-		else if (num / 5 == (int)num / 5)
-		{
-			num = num / 5;
-			cout << " 5 " << endl;
-		}
-		else if (num / 7 == (int)num / 7)
-		{
-			num = num / 7;
-			cout << " 7 " << endl;
-		}
-		if (num / 11 == (int)num / 11)
-		{
-			num = num / 11;
-			cout << " 11 " << endl;
-		}
-		else if (num / 13 == (int)num / 13)
-		{
-			num = num / 13;
-			cout << " 13 " << endl;
-		}
-		else if (num = 1)
-			loop = 'Y';
-		else 
-			
-		return 0;
+		else
+			i++;                         // if not adds until i is prime 
 	}
+	
+	if (num != 1)
+		cout << num << " = ";
+	else
+		cout << " = ";
+	
+}
+int prime2(double num, int key)
+{
+	for (int i = 2; i <= num / 2; ++i)
+	{
+		if ((int)num % i == 0)
+		{
+			key = 1;
+			break;
+		}
+	}
+	if (key == 0)
+	{
+		return key;
+	}
+	else
+		return key;
 }
