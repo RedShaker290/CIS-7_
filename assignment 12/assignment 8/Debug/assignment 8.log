@@ -1,0 +1,8 @@
+﻿  Source.cpp
+c:\users\julian\desktop\assignment 12\assignment 8\source.cpp(34): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\julian\desktop\assignment 12\assignment 8\source.cpp(50): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+c:\users\julian\desktop\assignment 12\assignment 8\source.cpp(56): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\julian\desktop\assignment 12\assignment 8\source.cpp(61): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\julian\desktop\assignment 12\assignment 8\source.cpp(98): warning C4715: 'gdcE': not all control paths return a value
+  assignment 8.vcxproj -> C:\Users\Julian\Desktop\assignment 12\Debug\assignment 8.exe
+  assignment 8.vcxproj -> C:\Users\Julian\Desktop\assignment 12\Debug\assignment 8.pdb (Partial PDB)
