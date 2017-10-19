@@ -60,13 +60,12 @@ double isPrime(double num, char loop)
 void bruteForce(double num, char loop)
 {
 	double limit = num;
-	int i = 2;
-
-	while ( i < limit)
+	
+	for ( int i = 2; i < limit;)
 	{
 		int key = 0;
 		int j = i;
-		key = prime2( j, key);             // checks if i is prime 
+		key = prime2( j, key);             
 
 		if (key == 0)
 		{
@@ -83,7 +82,7 @@ void bruteForce(double num, char loop)
 				i++;
 		}
 		else
-			i++;                         // if not adds until i is prime 
+			i++;                       
 	}
 	
 	if (num != 1)

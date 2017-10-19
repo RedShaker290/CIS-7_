@@ -1,0 +1,5 @@
+﻿  Source.cpp
+c:\users\julian\cis-7_\assignemnt 14\assignemnt 14\source.cpp(32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\julian\cis-7_\assignemnt 14\assignemnt 14\source.cpp(37): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  assignemnt 14.vcxproj -> C:\Users\Julian\CIS-7_\assignemnt 14\Debug\assignemnt 14.exe
+  assignemnt 14.vcxproj -> C:\Users\Julian\CIS-7_\assignemnt 14\Debug\assignemnt 14.pdb (Partial PDB)
