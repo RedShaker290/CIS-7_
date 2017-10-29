@@ -1,0 +1,5 @@
+﻿  Set.cpp
+c:\users\julian\cis-7_\assignment 15\assignment 15\set.cpp(47): warning C4244: 'initializing': conversion from 'double' to 'unsigned int', possible loss of data
+c:\users\julian\cis-7_\assignment 15\assignment 15\set.cpp(49): warning C4018: '<': signed/unsigned mismatch
+  assignment 15.vcxproj -> C:\Users\Julian\CIS-7_\assignment 15\Debug\assignment 15.exe
+  assignment 15.vcxproj -> C:\Users\Julian\CIS-7_\assignment 15\Debug\assignment 15.pdb (Partial PDB)

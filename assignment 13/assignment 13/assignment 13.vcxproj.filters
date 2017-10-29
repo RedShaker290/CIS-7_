@@ -18,12 +18,9 @@
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Tower.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Tower.h">
+    <ClInclude Include="stacktype.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
