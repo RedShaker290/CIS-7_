@@ -14,9 +14,9 @@ int main()
 	enterVal(a, loop);
 	system("CLS");
 
-	/*cout << "Enter for set B: ";
+	cout << "Enter for set B: ";
 	enterVal(b, loop);
-	system("CLS");*/
+	system("CLS");
 
 	cout << endl <<"Set A: ";
 	a.display();

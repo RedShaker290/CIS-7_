@@ -30,9 +30,7 @@ void Set::comboAnddiff(Set x)
 		for (int j = x.top; j > -1; j--)
 		{
 			if (content[i] == x.content[j])
-			{
 				key = 1;
-			}
 			else if (content[i] != x.content[j])
 			{
 				if (j == 0 && key != 1)
