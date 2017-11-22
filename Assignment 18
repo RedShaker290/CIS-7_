@@ -20,7 +20,8 @@
 
 49. n disconnected nodes with loops at each node 
 
-51. nxn matrix with 0s down the main diagonal and 1s everywhere else 
+51. nxn matrix with 0s down the main diagonal and 1s everywhere else and the
+graph has vertices that are connected to each other vertice but not to themselves 
 
 65. Under different file on github 
 
